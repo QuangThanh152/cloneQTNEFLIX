@@ -1,0 +1,42 @@
+.player { 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.player img {
+    position: absolute;
+    top: 70px;
+    left: 60px;
+    width: 50px;
+    cursor: pointer;
+}
+.player iframe {
+    border-radius: 10px;
+}
+.player-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+@media (max-width: 1024px) {
+    .player img {
+        position: absolute;
+        top: 25px;
+        left: 40px;
+        width: 70px;
+    }
+}
+@media (max-width: 800px) {
+    .player-info {
+        display: none;
+    }
+    .player img {
+        position: absolute;
+        top: 30px;
+        left: 20px;
+        width: 50px;
+    }
+}
