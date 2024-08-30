@@ -16,17 +16,13 @@ const Footer = () => {
         <img src={instagram_icon} alt='' />
       </div>
       <ul>
-        <li>Terms of Service</li>
-        <li>Help Centre</li>
-        <li>Gift Cards</li>
-        <li>Media Centre</li>
-        <li>Investor Relations</li>
-        <li>Jobs</li>
-        <li>Privacy</li>
-        <li>Legal Notices</li>
-        <li>Cookie Preferences</li>
-        <li>Corporate Infomation</li>
-        <li>Contact Us</li>
+        <li>Phim Mới</li>
+        <li>Phim Chiếu Rạp</li>
+        <li>Phim Hot</li>
+        <li>Phim Đang Hot</li>
+        <li>Phim Sắp Tới</li>
+        <li>Phổ Biến</li>
+        <li>Liên Hệ</li>
       </ul>
       <p className='copyright-text'>© 2003-2024 QtFlix, INC.</p>
     </div>
