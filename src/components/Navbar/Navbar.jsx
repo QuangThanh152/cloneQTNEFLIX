@@ -24,12 +24,21 @@ const Navbar = () => {
         <div className='navbar-left'>
             <img src={logo} alt="" />
             <ul>
-                <li>Home</li>
-                <li>TV Shows</li>
-                <li>Movies</li>
-                <li>New & Popular</li>
-                <li>My List</li>
-                <li>Languages</li>
+                <li>TRANG CHỦ</li>
+                <li className='dropdownList'>
+                    THỂ LOẠI
+                    <ul className='dropdownList-menu'>
+                        <li>Hành Động</li>
+                        <li>Tài Liệu</li>
+                        <li>Kinh Dị</li>
+                        <li>Phiêu Lưu</li>
+                        <li>Chiến Tranh</li>
+                    </ul>
+                </li>
+                <li>PHIM BỘ</li>
+                <li>PHIM MỚI</li>
+                <li>PHIM LẺ</li>
+                <li>NĂM SẢN SUẤT</li>
             </ul>
         </div>
         <div className='navbar-right'>
