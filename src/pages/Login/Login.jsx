@@ -52,7 +52,7 @@ const Login = () => {
           </div>
         </form>
         <div className='form-switch'>
-          {signState==="Sign In" ?  <p> New ? <span onClick={() => {setSignState("Sign Up")}}>Sign Up Now</span> </p> :  <p> Already have account? <span onClick={() => {setSignState("Sign In")}}>Sign In Now</span> </p>}
+          {signState==="Sign In" ?  <p> Chưa có tài khoản ? <span onClick={() => {setSignState("Sign Up")}}>Đăng Ký Ngay</span> </p> :  <p> Bạn đã có tài khoản? <span onClick={() => {setSignState("Sign In")}}>Đăng Nhập</span> </p>}
          
         </div>
       </div>

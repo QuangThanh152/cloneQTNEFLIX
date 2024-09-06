@@ -38,7 +38,26 @@ const Navbar = () => {
                 <li>PHIM BỘ</li>
                 <li>PHIM MỚI</li>
                 <li>PHIM LẺ</li>
-                <li>NĂM SẢN SUẤT</li>
+                <li className='dropdownList'>
+                    NĂM SẢN SUẤT
+                    <ul className='dropdownList-menu'>
+                        <li>2010</li>
+                        <li>2011</li>
+                        <li>2012</li>
+                        <li>2013</li>
+                        <li>2014</li>
+                        <li>2015</li>
+                        <li>2016</li>
+                        <li>2017</li>
+                        <li>2018</li>
+                        <li>2019</li>
+                        <li>2020</li>
+                        <li>2021</li>
+                        <li>2022</li>
+                        <li>2023</li>
+                        <li>2024</li>
+                    </ul>
+                </li>
             </ul>
         </div>
         <div className='navbar-right'>
@@ -49,7 +68,7 @@ const Navbar = () => {
                 <img src={profile_img} alt="" className='profile' />
                 <img src={caret_icon} alt="" />
                 <div className='dropdown'>
-                    <p onClick={() => { logout() }}>Sign Out of QtFlix</p>
+                    <p onClick={() => { logout() }}>Thoát Khỏi QtFlix</p>
                 </div>
             </div>
         </div>
